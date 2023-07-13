@@ -3,6 +3,9 @@ function fibonacci(num) {
 	let a = 0;
 	let b = 1;
 
+	if (num == 1) {
+		return 0;
+	}
 	if (num < 2) {
 		return n;
 	}
